@@ -1,0 +1,17 @@
+p{
+    text-align: left;
+}
+.centered{
+    text-align: center;
+}
+
+
+
+.prettyFont{
+    font-family: cursive;
+}
+
+.leftSpace{
+    padding-left: 40%;
+    padding-bottom: 50%;
+}
