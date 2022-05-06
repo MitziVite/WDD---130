@@ -1,0 +1,23 @@
+.blueText {
+    color: blue;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.beautifulPink {
+    color: pink;
+}
+.awesomeButton{
+    background-color: rgb(90, 169, 211);
+    border-radius: 50%;
+    padding: 100px;
+    border: 2px solid black;
+    transition-duration: 3s;
+
+}
+
+.awesomeButton:hover{
+    background-color: brown;
+}

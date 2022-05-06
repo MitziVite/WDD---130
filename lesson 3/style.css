@@ -1,0 +1,28 @@
+.awesomeDataList{
+    background-color: pink;
+}
+.awesomeDataList dt{
+    font-weight: 900;
+}
+
+.awesomeDataList dd{
+    font-style: italic;
+}
+
+.awesomeDataList dt,
+.awesomeDataList dd{
+    color: rgb(229, 38, 70);
+}
+
+.listContainer{
+    width: 90%;
+    margin: 0 auto;
+    background-color: blue;
+    border: 1px solid;
+}
+
+ul .no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
