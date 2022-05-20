@@ -3,25 +3,25 @@
 body{
 background-color: #577cc2;
 font-size: 22px;
-font-family: "Source Sans pro",Helvatica;
+font-family: "Source Sans pro",Helvatica, Arial;
 margin: 0;
 padding: 0;
 }
 
 header{
     background-color: #577cc2;
-    font-family: "Source Sans pro";
+    font-family: "Source Sans pro",Helvatica, Arial;
 }
 h1{
-    font-family: Lobster;
+    font-family: Lobster,Helvatica, Arial;
 }
 
 h4{
 color: #9fce8d;
-font-family: 'Source Sans pro';
+font-family: 'Source Sans pro',Helvatica, Arial;
 }
 h2{
-    font-family: Lobster;
+    font-family: Lobster,Helvatica, Arial;
     margin: 0;
 }
 .logo {
@@ -61,7 +61,7 @@ nav a:hover{
     background-color: #f9a620;
     color: #577cc2;
     text-decoration: none;
-    font-family: 'Source Sans pro';
+    font-family: 'Source Sans pro',Helvatica, Arial;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -80,7 +80,7 @@ nav a:hover{
 
 .msg{
     background-color: #9fce8d;
-    font-family: 'Source Sans pro';
+    font-family: 'Source Sans pro',Helvatica, Arial;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -134,7 +134,7 @@ footer{
 footer h3{
 color: #577cc2;
 text-decoration: none;
-font-family: 'Source Sans pro';
+font-family: 'Source Sans pro',Helvatica, Arial;
 }
 footer a{
     color: #577cc2;
@@ -146,4 +146,4 @@ footer a:hover{
 }
 footer .social img {
      padding-top: 15px;
-}
+} 
