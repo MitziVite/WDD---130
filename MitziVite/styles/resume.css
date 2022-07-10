@@ -115,21 +115,21 @@ nav a:hover{
 }
 
 .PersonalPhoto{
-    width: 23%;
-    height: 40%;
+    width: 26%;
+    height: 44%;
     border-radius: 100%;
     position: absolute;
-    margin: 20px 100px;
+    margin: 25px 60px;
 }
 
 .photo-margin{
     background-color: #BE8D93;
     z-index: -1;
     position: absolute;
-    width: 25%;
-    height:45% ;
+    width: 29%;
+    height:48% ;
     color: #BE8D93;
-    margin: 10px 105px ;
+    margin: 17px 50px ;
     border: 10px;
     border-radius: 100%;
 }
