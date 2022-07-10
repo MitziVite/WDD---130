@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script&family=Gentium+Plus:ital@0;1&family=Lobster&family=Noto+Serif+JP&family=Source+Sans+Pro:wght@600&display=swap');
+
+/* ---------Header of the page ------------*/
+header {
+    font-family: "Bree Serif",Helvatica;
+}
+
+.top-line{
+    width: 100%;
+    margin: -12px;
+    color: rgb(248,203,208);
+    background: rgb(248,203,208);
+    background: linear-gradient(90deg, rgba(248,203,208,1) 8%, rgba(245,176,189,1) 37%, rgba(239,130,161,1) 84%);
+}
+.top-line-left{
+    width: 500px;
+    height: 4px;
+    color: white;
+    background: #dbc0bd;
+    margin: 50px 0px -40px 40px;
+
+    
+}
+
+.button-line-left{
+    grid-row: 3;
+    width: 500px;
+    height: 4px;
+    color: white;
+    background: #dbc0bd;
+    margin: 5px 50px 75px 40px;
+}
+
+.top-left{
+    grid-column: 1/5;
+    grid-row: 2;
+    margin-left: 50px;
+
+}
+.top-center{
+    grid-column: 3/7;
+    grid-row: 1/4;
+}
+
+.logo{
+    margin: 20px -50px;
+    width: 200px;
+    height: 100px;
+    z-index: -3;
+}
+
+
+
+
+.top-right{
+    grid-column: 7/10;
+    grid-row: 2;
+    margin-left: 100px;
+}
+
+.top-line-right{
+    grid-column: 7/8;
+    width: 300px;
+    height: 4px;
+    color: white;
+    background: #dbc0bd;
+    margin:50px 0px 0px 50px;
+}
+
+.button-line-right{
+    grid-column: 7/8;
+    grid-row: 3;
+    width: 300px;
+    height: 4px;
+    color: white;
+    background: #dbc0bd;
+    margin:5px 0px 0px 50px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 10;
+    grid-template-rows: 3; 
+    justify-content: space-around;
+    font-size: 20px;
+}
+nav a{
+    text-align: center; 
+    color: black;
+    text-decoration: none;
+    padding: 80px; 
+    
+}
+nav a:hover{
+    background-color: #fe938c;
+    color: black;
+    padding: 10px;
+}
+
+
+/* -------------Parent ----------------*/
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1;
+}
+/* ------Left */
+.child1{
+    background-color: #BE8D93;
+    margin: 2px 150px 500px;
+    width: 80%;
+    height: 280%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.PersonalPhoto{
+    width: 23%;
+    height: 40%;
+    border-radius: 100%;
+    position: absolute;
+    margin: 20px 100px;
+}
+
+.photo-margin{
+    background-color: #BE8D93;
+    z-index: -1;
+    position: absolute;
+    width: 25%;
+    height:45% ;
+    color: #BE8D93;
+    margin: 10px 105px ;
+    border: 10px;
+    border-radius: 100%;
+}
+
+.inf-contact-grid{
+    font-family: "Gentium Plus";
+    display: grid;
+    /* grid-template-columns: 3;
+    grid-template-rows: 2; */
+    z-index: -1;
+    
+}
+.text{
+    position: absolute;
+    margin: 340px 170px;
+}
+.line-contact{
+    width: 300px;
+    height: 2px;
+    color: #BE8D93;
+    background: rgb(255, 255, 255);
+    margin: 30px 5px;
+}
+
+section h2{
+    color: white;
+    font-family:"Gentium Plus" ;
+    font-size: 30px
+}
+section p{
+    font-size: 20px;
+    color: white;
+    font-family: "Gentium Plus";
+}
+.contact1{
+    width: 40px;
+    height: 40px;
+    grid-column: 1;
+    grid-row: 1;
+}
+.contact1-1{
+    grid-column: 2;
+    grid-row: 1;
+    margin:0 -60px 30px;
+    
+} 
+ .contact2{
+    width: 40px;
+    height: 40px;
+    grid-column: 1;
+    grid-row: 2;
+}
+.contact2-2{
+    grid-column: 2;
+    grid-row: 2;
+    margin:0 -60px 30px;
+    
+} 
+.contact3{
+    width: 40px;
+    height: 40px;
+    grid-column: 1;
+    grid-row: 3;
+}
+.contact3-3{
+    grid-column: 3;
+    grid-row: 3;
+    margin:0 -200px;
+} 
+
+.line-skills{
+    width: 300px;
+    height: 2px;
+    color: #BE8D93;
+    background: rgb(255, 255, 255);
+    margin: 30px 5px;
+}
+section li{
+    color: white;
+    font-size: 17px;
+}
+
+/* ---------Right---------*/
+
+.text2{
+    position: absolute;
+    margin: -500px 600px;
+    width: 510px;
+}
+.name{
+    font-size: 60px;
+    font-family: "Source Sans Pro";
+    text-align: right;
+    color: #BE8D93;
+    margin: 40px 30px;
+
+}
+.line-name{
+    width: 510px;
+    height: 2px;
+    color: white;
+    background: black;
+    margin: -40px 5px;
+}
+
+
+.education h1{
+    margin: 50px -3px;
+    font-size: 30px;
+    text-align: left;
+    
+}
+.education h3{
+    color: #BE8D93;
+    font-size: 20px;
+}
+
+.education li{
+    color: black;
+    font-size: 17px;
+    margin: 0 -20px;
+    font-weight: bold;
+}
+.line-experience{
+    width: 510px;
+    height: 2px;
+    color: white;
+    background: black;
+    /* margin: -40px 5px; */
+}
+.work-experience h1{
+    font-size: 25px;
+}
+.work-experience h3{
+    color: #BE8D93;
+    font-size: 20px;
+}
+.work-experience li{
+    color: black;
+    font-size: 17px;
+    margin: 0 -20px;
+    
+}
+.line-volunteer{
+    width: 510px;
+    height: 2px;
+    color: white;
+    background: black;  
+}
+.volunteer h1{
+    font-size: 30px;
+}
+.volunteer h3{
+    color: #BE8D93;
+    font-size: 20px;
+}
+.volunteer li{
+    color: black;
+    font-size: 17px;
+    margin: 0 -20px;
+    
+}
+
+
+
+
+/* Footer */
+footer{
+    background-color: #f6a2bf;
+    text-decoration: none;
+    margin-top: 920px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+color: black;
+text-decoration: none;
+font-family: "Helvetica";
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Bree Serif";
+}
+footer .social img {
+     padding-top: 15px;
+     width: 25px;
+     padding: 15px;
+     padding-left: 5px;
+     
+} 

@@ -4,43 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="./styles/resume.css">
 </head>
 <body>
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="./images/logo-first.png" alt="MitziLogo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="resume.html">Resume</a>
-            <a href="blog.html">Blog</a>
-        </nav>
-    </header>
+    <body>
+        <header>
+            <div class="top-line">p</div>
+            <div class="Header-inner-top">
+                <nav>
+                    <div class="top-line-left">p</div>
+                    <div class="top-left">
+                        <a class="index" href="index.html">Home</a>
+                        <a class="resume" href="resume.html">Resume</a>
+                    </div>
+                    <div class="button-line-left">p</div>
+    
+                    <div class="top-center">
+                        <a href="./index.html">
+                        <img class="logo" src="./images/logo-first.png" alt="">
+                        </a>
+                    </div>
+    
+                    <div class="top-line-right">p</div>
+                    <div class="top-right">
+                        <a class="blog" href="blog.html">Blog</a>
+                    </div>
+                    <div class="button-line-right">p</div>
+    
+                </nav>
+            </div>
+        </header>
     
     <main>
-        <section>
-            <img src="./images/foto de perfil.jpg" alt="PersonalPhoto">
-        </section>
+        <div class="parent">
+            <div class="child1">
+                <div class="photo-margin">p</div>
+        
+            <img src="./images/Mi proyecto.jpg" class="PersonalPhoto" alt="PersonalPhoto">
+        </div>
 
-        <section>
-            <div class="contact">
+        <section class="text">
+            <div class="line-contact">p</div>
                 <h2>Contact</h2>
-                <img src="./images/cellphone.png" alt="Phone">
-                <p>(385) 439-1623</p>
-                <img src="./images/mail.png" alt="Mail">
-                <p>mitzivite15@gmail.com</p>
-                <img src="./images/linkedinp.png" alt="linkedin">
-                <p>linkedin.com/in/mitzi-vite/</p>
+            <div class="inf-contact-grid">
+                <img src="./images/cellphone.png" alt="Phone" class="contact1">
+                <p class="contact1-1">(385) 439-1623</p>
+                <img src="./images/mail.png" alt="Mail" class="contact2">
+                <p class="contact2-2">mitzivite15@gmail.com</p>
+                <img src="./images/linkedinp.png" alt="linkedin" class="contact3">
+                <p class="contact3-3">linkedin.com/in/mitzi-vite/</p>
+
+
             </div>
 
             <div>
                 <h2>Skills</h2>
+                <div class="line-skills">p</div>
                     <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
-                    <li>Proficient: Microsoft Office Suite (Word, PowerPoint, and Excel)</li>
+                    <li>Proficient: Microsoft Office Suite <br> (Word, PowerPoint, and Excel)</li>
                   </ul>  
             </div>
 
@@ -53,9 +78,11 @@
             </div>
 
         </section>
-
-        <section>
-            <h1>Mitzi Vite</h1>
+        </div>
+        <div class="child2">
+        <section class="text2">
+            <h1 class="name">Mitzi Vite</h1>
+            <div class="line-name">p</div>
             <div class="education">
                 <h1>Education</h1>
                 <h3>B.S. Software Engineering with certificates in Data Science and Machine Learning</h3>
@@ -70,7 +97,7 @@
                 <h3>Certificates</h3>
                 <h4>CSS3 and HTML5 Udemy certificate</h4>
             </div>
-
+            <div class="line-experience">p</div>
             <div class="work-experience">
                 <h1>WORK EXPERIENCE</h1>
                 <h3>Teaching Assistant</h3>
@@ -89,7 +116,7 @@
                     <li>Cleaned campus building in early mornings with 100% punctuality and attendance </li>
                 </ul>
             </div>
-            
+            <div class="line-volunteer">p</div>
             <div class="volunteer">
                 <h1>Volunteer Experience</h1>
                 <h3>Full time missionary</h3>
@@ -106,7 +133,8 @@
             </div>
         </section>
 
-
+    </div>
+    
     </main>
     
     <footer>

@@ -121,8 +121,29 @@ nav a:hover{
 }
 
 h1{
-    font-size: 19px;
+    font-size: 23px;
+    border-right: .15em solid black;
+    animation: typing 1.5s steps(32) 1s 1 normal both, blink 1s steps(1) infinite;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
 }
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 67%;
+    }
+  }
+
+
 p{
     font-size: 20px;
     font-family: "Gentium Plus";
