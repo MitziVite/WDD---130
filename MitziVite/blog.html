@@ -5,75 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/blog.css">
+    <script src="./blog.js" defer></script>
 </head>
+
+
 <body>
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="./images/logo-first.png" alt="MitziLogo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="resume.html">Resume</a>
-            <a href="blog.html">Blog</a>
-        </nav>
+        <div class="top-line">p</div>
+        <div class="Header-inner-top">
+            <nav>
+                <div class="top-line-left">p</div>
+                <div class="top-left">
+                    <a class="index" href="index.html">Home</a>
+                    <a class="resume" href="resume.html">Resume</a>
+                </div>
+                <div class="button-line-left">p</div>
+
+                <div class="top-center">
+                    <a href="./index.html" class="indexa">
+                    <img class="logo" src="./images/logo-first.png" alt="">
+                    </a>
+                </div>
+
+                <div class="top-line-right">p</div>
+                <div class="top-right">
+                    <a class="blog" href="blog.html">Blog</a>
+                </div>
+                <div class="button-line-right">p</div>
+
+            </nav>
+        </div>
     </header>
     <h1>Getting to know me</h1>
-    <div>
-        <img src="./images/pastorganaderoaustraliano.jpg" alt="Doggy">
-        <p>My favorite animals are dogs, specifically Australian Cattle Dog
-            Did you know? That they are not really from Australia. Is unknown where they are.
-            It is also believed that is the oldest domesticated breed native of the Ociania Continent.
-            "When a man takes pity on all living creatures, only then will he be noble."
-        </p>
-        <img src="./images/Hiking.jpeg" alt="Hiking">
-        <p>I love hiking, I love to feel the fresh air and see the nature around me.
-            Did you know? That hiking is the fourth most popular outdoor activity in the US
-            It can reduce anxiety and depression
-            Ir reduces the speed of lost of density in the bones
-            "“Hiking is the answer.  Who cares what the question is.”"
-        </p>
-        <img src="./images/Singing.png" alt="Singing">
-        <p>I love music. I enjoy listening to music and singing.
-            Did you know?
-            That music affects your perseption of the world.
-            It helps the plants to grow faster
-            Your Heartbeat Syncs to the Rhythm of the Music
-            "One good thing about music, when it hits you, you feel no pain" -Bob Marley 
-        </p>
-        <img src="./images/sky.jpeg" alt="Sky">
-        <p>
-            When I am going through a hard time I feel peace when I look at the sky, I feel hope and happiness.
-        Did you know? 
-        Almost every star you see is bigger and brighter than our sun.
-        Clouds are extremely heavy.
-        Our sun is a green-blue star
-        “Let the blue of the sky and ocean take your blue away when you feel blue.” - Munia Khan
-        </p>
-        <img src="./images/basquetbol.jpeg" alt="Basketball">
-        <p>
-            When I was younger I used to practice basketball. It is my favorite sport!
-        Did you know?
-        It was played with a soccer ball.
-        When basketball was invented, there was no limit to the number of players on the court
-        It was found by James Naismith in Springfield, Massachusetts in 1891
-        "In basketball—as in life—true joy comes from being fully present in each and every moment,
-        not just when things are going your way” – Phil Jackson
-        </p>
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 5</div>
+                    <img src="./images/pastorganaderoaustraliano.jpg" alt="Doggy">
+                    <p>My favorite animals are dogs, specifically Australian Cattle Dog <br>
+                    Did you know? That they are not really from Australia. Is unknown where they are.
+                    It is also believed that is the oldest domesticated breed native of the Ociania Continent. <br>
+                    "When a man takes pity on all living creatures, only then will he be noble."
+                    </p>
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 5</div>
+                    <img src="./images/Hiking.jpeg" alt="Hiking">
+                    <p>I love hiking, I love to feel the fresh air and see the nature around me. <br>
+                        Did you know? That hiking is the fourth most popular outdoor activity in the US
+                        It can reduce anxiety and depression
+                        Ir reduces the speed of lost of density in the bones <br>
+                        “Hiking is the answer.  Who cares what the question is.”"
+                    </p>
+            </div>
+
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 5</div>
+                    <img src="./images/Singing.png" alt="Singing">
+                    <p>I love music. I enjoy listening to music and singing. <br>
+                        Did you know?
+                        That music affects your perseption of the world.
+                        It helps the plants to grow faster
+                        Your Heartbeat Syncs to the Rhythm of the Music <br>
+                        "One good thing about music, when it hits you, you feel no pain" -Bob Marley 
+                    </p>
+            </div>
+
+        
+            <div class="mySlides">
+                <div class="numbertext">4 / 5</div>
+                    <img src="./images/sky.jpeg" alt="Sky">
+                    <p>
+                        When I am going through a hard time I feel peace when I look at the sky, I feel hope and happiness. <br>
+                    Did you know? 
+                    Almost every star you see is bigger and brighter than our sun.
+                    Clouds are extremely heavy.
+                    Our sun is a green-blue star <br>
+                    “Let the blue of the sky and ocean take your blue away when you feel blue.” - Munia Khan
+                    </p>
+            </div>
+
+        
+            <div class="mySlides">
+                <div class="numbertext">5 / 5</div>
+                    <img src="./images/basquetbol.jpeg" alt="Basketball">
+                    <p>
+                    When I was younger I used to practice basketball. It is my favorite sport! <br>
+                    Did you know?
+                    It was played with a soccer ball.
+                    When basketball was invented, there was no limit to the number of players on the court
+                    It was found by James Naismith in Springfield, Massachusetts in 1891 <br>
+                    "In basketball—as in life—true joy comes from being fully present in each and every moment,
+                    not just when things are going your way” – Phil Jackson
+                    </p>
+            </div>
+
+                <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+            <img class="demo-cursor" src="./images/pastorganaderoaustraliano.jpg" onclick="currentSlide(1)" alt="Dog">
+            </div>
+            <div class="column">
+            <img class="demo-cursor" src="./images/Hiking.jpeg"  onclick="currentSlide(2)" alt="Hiking">
+            </div>
+            <div class="column">
+            <img class="demo-cursor" src="./images/Singing.png"  onclick="currentSlide(3)" alt="Singing">
+            </div>
+            <div class="column">
+            <img class="demo-cursor" src="./images/sky.jpeg"  onclick="currentSlide(4)" alt="Sky">
+            </div>
+            <div class="column">
+            <img class="demo-cursor" src="./images/basquetbol.jpeg"  onclick="currentSlide(5)" alt="Basketball">
+            </div>
+            
+        </div>
+        </div>
 
     </div>
     <footer>
         <h3>&copy; Mitzi Vite - 2022</h3>
         <a href="site-plan.html">Site Plan</a>
         <div class="social">
-            <a href="https://www.linkedin.com/in/mitzi-vite" target="_blank">  
+            <a class="sociala" href="https://www.linkedin.com/in/mitzi-vite" target="_blank">  
                 <img src="./images/linkedinlogo.png" alt="linkedin icon">
             </a>
 
-            <a href="https://www.facebook.com/mitzi.vite.77/" target="_blank"> 
+            <a class="sociala"  href="https://www.facebook.com/mitzi.vite.77/" target="_blank"> 
                 <img src="./images/facebooklogo.png" alt="fb icon">
             </a>
             
-            <a href="https://www.instagram.com/vitemitzi/" target="_blank">
+            <a class="sociala"  href="https://www.instagram.com/vitemitzi/" target="_blank">
                 <img src="./images/instagramlogo.png" alt="instagram icon">
             </a>
         </div>

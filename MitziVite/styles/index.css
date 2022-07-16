@@ -36,6 +36,7 @@ header {
     margin-left: 50px;
 
 }
+
 .top-center{
     grid-column: 3/7;
     grid-row: 1/4;
@@ -80,18 +81,26 @@ nav{
     justify-content: space-around;
     font-size: 20px;
 }
+
 nav a{
     text-align: center; 
     color: black;
     text-decoration: none;
-    padding: 80px; 
-    
+    /* padding: 80px; 
+    height:30px;     */
+    margin: 0 80px;
+    padding: 1px 10px;
 }
+
+  
 nav a:hover{
     background-color: #fe938c;
     color: black;
-    padding: 10px;
+    /* padding: 10px; */
 }
+nav .indexa:hover{
+    background: none;
+  }
 
 
 /*--------MAIN CONTENT---------*/
@@ -238,6 +247,10 @@ footer a:hover{
     font-size: 20px;
     font-family: "Bree Serif";
 }
+footer .sociala:hover {
+    background: none;
+  }
+
 footer .social img {
      padding-top: 15px;
      width: 25px;
